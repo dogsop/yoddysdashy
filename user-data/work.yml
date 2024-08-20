@@ -1,0 +1,41 @@
+pageInfo:
+  title: Smellydog Web Resources
+  description: Welcome to your Smellydog dashboard!
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+    - title: GitHub
+      path: https://github.com/El-Pollo-Loco-Inc
+    - title: Documentation
+      path: https://dashy.to/docs
+appConfig:
+  theme: material-original
+  enableMaterialDesignIcons: true
+  layout: auto
+  iconSize: medium
+  language: en
+sections:
+  - name: Work Links
+    icon: https://www.elpolloloco.com/content/img/favicon-64x64.png
+    items:
+      - title: SSO
+        icon: https://www.elpolloloco.com/content/img/favicon-64x64.png
+        url: https://elpolloloco.onelogin.com/
+      - title: EPL Wiki
+        icon: https://wiki.eplportal/lib/tpl/dokuwiki_epl/images/favicon.ico
+        url: https://wiki.eplportal/doku.php?id=itdev:home
+      - title: Esign Portal
+        icon: favicon
+        url: https://esign.eplportal.com
+  - name: Vendors
+    #    icon: https://www.elpolloloco.com/content/img/favicon-64x64.png
+    items:
+      - title: Oracle Support
+        icon: favicon
+        url: https://support.oracle.com/
+      - title: PAX (TMS)
+        icon: favicon
+        url: https://www.paxstore.us/portal/#/home
+      - title: Portico Gateway (15510111A)
+        icon: favicon
+        url: https://posgateway.cert.secureexchange.net/Hps.Exchange.PosGateway.Web/login.aspx

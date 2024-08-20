@@ -1,0 +1,25 @@
+pageInfo:
+  title: Smellydog Web Resources
+  description: Welcome to your Smellydog dashboard!
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+appConfig:
+  theme: material-original
+  enableMaterialDesignIcons: true
+  layout: auto
+  iconSize: medium
+  language: en
+sections:
+  - name: Glances
+    items:
+      - title: Blackholei7
+        url: http://10.20.20.3:61208
+      - title: Blackholei5
+        url: http://10.20.20.20:61208
+      - title: Zwave
+        url: http://10.20.20.35:61208
+      - title: Zigbee
+        url: http://10.20.20.36:61208
+      - title: Pisdr915
+        url: http://10.20.20.11:61208

@@ -1,0 +1,324 @@
+pageInfo:
+  title: Smellydog Web Resources
+  description: Welcome to your Smellydog dashboard!
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+    - title: GitHub
+      path: https://github.com/El-Pollo-Loco-Inc
+    - title: Documentation
+      path: https://dashy.to/docs
+sections:
+  - name: Smellydog Apps
+    icon: https://www.smellydog.net/cal.ico
+    items:
+      - title: Blue Iris
+        icon: hl-blue-iris
+        url: https://bi.smellydog.net/ui3.htm?group=Index
+        id: 0_1380_blueiris
+      - title: Grafana
+        url: https://grafana.smellydog.net/?orgId=1
+        icon: hl-grafana
+        id: 1_1380_grafana
+      - title: Opnsense
+        url: http://10.20.20.1:8080/
+        icon: hl-opnsense
+        id: 2_1380_opnsense
+      - title: Smellydog Web
+        url: https://www.smellydog.net/
+        icon: https://www.smellydog.net/cal.ico
+        id: 3_1380_smellydogweb
+      - title: Unifi
+        icon: hl-unifi
+        url: http://10.20.20.76:8080/
+        id: 4_1380_unifi
+      - title: ZwaveJS2MQTT
+        url: http://10.20.20.14:8091/control-panel
+        icon: hl-zwavejs2mqtt
+        id: 5_1380_zwavejsmqtt
+      - title: Zigbee2MQTT
+        icon: zigbee
+        url: http://10.20.20.14:8080/#/
+        id: 6_1380_zigbeemqtt
+      - title: TrueNAS
+        icon: hl-truenas
+        url: http://10.20.20.8
+        target: newtab
+        id: 7_1380_truenas
+      - title: PiHole
+        icon: hl-pihole
+        url: http://pihole.home.smellydog.net/admin
+        target: newtab
+        id: 8_1380_pihole
+  - name: Proxmox
+    icon: hl-proxmox
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Proxmox r7
+        icon: png/proxmox.png
+        url: http://10.20.20.7:8006/
+        target: newtab
+        id: 0_765_proxmoxr
+      - title: Proxmox EPL
+        icon: png/proxmox.png
+        url: http://100.120.42.138:8006/
+        target: newtab
+        id: 1_765_proxmoxepl
+      - title: Proxmox 360
+        icon: png/proxmox.png
+        url: http://10.20.20.54:8006/
+        target: newtab
+        id: 2_765_proxmox
+      - title: Proxmox i7
+        icon: png/proxmox.png
+        url: http://10.20.20.3:8006/
+        target: newtab
+        id: 3_765_proxmoxi
+      - title: Proxmox i3
+        icon: png/proxmox.png
+        url: http://10.20.20.36:8006/
+        target: newtab
+        id: 4_765_proxmoxi
+      - title: Tail Proxmox 360
+        icon: png/proxmox.png
+        url: http://100.79.158.121:8006/
+        target: newtab
+        id: 5_765_tailproxmox
+      - title: Tail Proxmox r7
+        icon: png/proxmox.png
+        url: http://100.91.82.6:8006/
+        target: newtab
+        id: 6_765_tailproxmoxr
+      - title: Tail Proxmox i7
+        icon: png/proxmox.png
+        url: http://100.83.82.143:8006/
+        target: newtab
+        id: 7_765_tailproxmoxi
+      - title: Tail Proxmox i3
+        icon: png/proxmox.png
+        url: http://100.88.73.123:8006/
+        target: newtab
+        id: 8_765_proxmoxi
+  - name: Portainer
+    icon: hl-portainer
+    items:
+      - title: zigbee/zwave
+        icon: png/docker.png
+        url: https://10.20.20.14:9443/
+        id: 0_948_zigbeezwave
+      - title: ProxDocker
+        icon: png/docker.png
+        url: http://10.20.20.76:9000/
+        target: newtab
+        id: 1_948_proxdocker
+      - title: LinodeDocker
+        icon: png/docker.png
+        url: https://100.105.214.145:9443/
+        target: newtab
+        id: 2_948_linodedocker
+      - title: Tail zigbee/zwave
+        icon: png/docker.png
+        url: https://100.70.82.103:9443/
+        id: 3_948_tailzigbeezwave
+      - title: Tail ProxDocker
+        icon: png/docker.png
+        url: http://100.90.163.69:9000/
+        target: newtab
+        id: 4_948_tailproxdocker
+      - title: MediaVmDocker
+        icon: png/docker.png
+        url: http://10.20.20.13:9000/
+        target: newtab
+        id: 5_948_mediavmdocker
+  - name: Remote Control
+    icon: mdi-remote-desktop
+    items:
+      - title: Blackholei7
+        icon: png/pikvm.png
+        url: http://10.20.20.17/
+        id: 0_1389_blackholei
+      - title: Blackholei5
+        url: http://10.20.30.7/
+        icon: png/pikvm.png
+        id: 1_1389_blackholei
+      - title: IT-004
+        icon: png/pikvm.png
+        url: http://10.20.20.16/
+        id: 2_1389_it
+      - title: Opnsense
+        icon: png/pikvm.png
+        url: http://10.20.30.8/
+        id: 3_1389_opnsense
+      - title: EPL9150
+        icon: png/pikvm.png
+        url: http://10.20.20.15/
+        id: 4_1389_epl
+  - name: Hardware
+    icon: mdi-hammer-wrench
+    items:
+      - title: Brother Printer
+        icon: mdi-printer
+        url: http://10.20.20.29/
+        id: 0_814_brotherprinter
+      - title: Front Porch (Shelly)
+        url: http://10.20.40.201/
+        icon: mdi-coach-lamp
+        id: 1_814_frontporchshelly
+      - title: Front Yard (Reolink)
+        icon: mdi-video-wireless-outline
+        url: http://10.20.20.190/
+        id: 2_814_frontyardreolink
+      - title: HDHomerun
+        icon: hl-hdhomerun
+        url: http://10.20.20.27/
+        id: 3_814_hdhomerun
+      - title: My Cloud NAS
+        icon: mdi-nas
+        url: http://10.20.20.5/
+        id: 4_814_mycloudnas
+      - title: Netgear Switch
+        icon: mdi-switch
+        url: http://10.20.20.2/
+        id: 5_814_netgearswitch
+      - title: OPi200 VOIP
+        icon: mdi-phone-voip
+        url: http://10.20.20.28/
+        id: 6_814_opivoip
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Offsite Resources
+    items:
+      - title: Uptime Kuma
+        icon: png/uptime-kuma.png
+        url: http://10.20.20.76:3001/
+        id: 0_1707_uptimekuma
+      - title: Remote Uptime Kuma
+        icon: png/uptime-kuma.png
+        url: http://rkuma.smellydog.net:3001/
+        target: newtab
+        id: 1_1707_remoteuptimekuma
+      - title: EasyDNS
+        icon: https://www.smellydog.net/images/easydns.png
+        url: https://easydns.com/
+        target: newtab
+        id: 2_1707_easydns
+      - title: UptimeRobot
+        icon: favicon
+        url: https://uptimerobot.com/
+        id: 3_1707_uptimerobot
+      - title: LastPass
+        icon: https://www.smellydog.net/images/lastpass.png
+        url: https://www.lastpass.com/
+        id: 4_1707_lastpass
+      - title: Pushover
+        icon: favicon
+        url: https://pushover.net/login
+        id: 5_1707_pushover
+      - title: Nabu Casa
+        icon: https://www.smellydog.net/images/nabucasa.png
+        url: https://account.nabucasa.com/
+        target: newtab
+        id: 6_1707_nabucasa
+      - title: IFTTT
+        icon: favicon
+        url: https://ifttt.com/
+        id: 7_1707_ifttt
+      - title: PIA
+        icon: favicon
+        url: https://www.privateinternetaccess.com/
+        id: 8_1707_pia
+      - title: Wasabi
+        icon: favicon
+        url: https://console.wasabisys.com
+        id: 9_1707_wasabi
+      - title: ObiTalk
+        icon: favicon
+        url: https://www.obitalk.com/obinet/
+        id: 10_1707_obitalk
+      - title: GV 911
+        icon: mdi-car-emergency
+        url: https://www.gv911.com/
+        target: newtab
+        id: 11_1707_gv
+      - title: Remote Uptime Kuma
+        icon: png/uptime-kuma.png
+        url: http://rkuma.smellydog.net:3001/
+        target: newtab
+        id: 12_1707_remoteuptimekuma
+  - name: Media
+    icon: mdi-playnetwork
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Sonarr
+        icon: png/sonarr.png
+        url: http://10.20.20.13:8989/
+        target: newtab
+        id: 0_480_sonarr
+      - title: Radarr
+        icon: png/radarr.png
+        url: http://10.20.20.13:7878/
+        target: newtab
+        id: 1_480_radarr
+      - title: Prowlarr
+        icon: png/prowlarr.png
+        url: http://10.20.20.13:9696/
+        target: newtab
+        id: 2_480_prowlarr
+      - title: SABnzbd
+        icon: png/sabnzbd.png
+        url: http://10.20.20.13:8080/
+        target: newtab
+        id: 3_480_sabnzbd
+      - title: qBittorrent
+        icon: png/qbittorrent.png
+        url: http://10.20.20.13:8888/
+        target: newtab
+        id: 4_480_qbittorrent
+      - title: Bazarr
+        icon: png/bazarr.png
+        url: http://10.20.20.13:6767/
+        target: newtab
+        id: 5_480_bazarr
+  - name: Syncthing
+    icon: hl-syncthing
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: SyncTrueNAS
+        icon: hl-syncthing
+        url: http://10.20.20.8:20910/#
+        target: newtab
+        id: 0_951_synctruenas
+      - title: SyncMediaVM
+        icon: hl-syncthing
+        url: http://10.20.20.13:8384/#
+        target: newtab
+        id: 1_951_syncmediavm
+      - title: SyncNucBridge
+        icon: hl-syncthing
+        url: http://10.20.20.23:8384/
+        target: newtab
+        id: 2_951_syncnucbridge
+      - title: SyncBlackholei9
+        icon: hl-syncthing
+        url: http://10.20.20.6:8384/
+        target: newtab
+        id: 3_951_syncblackholei
