@@ -15,9 +15,6 @@ appConfig:
       - user: yoddy
         hash: 7eabfbeff60a843d0d38eb407491398b310b81647ac1767b0ac5c244fe5a28a9
         type: admin
-    enableGuestAccess: true
-    disableConfigurationForNonAdmin: true
-    enableKeycloak: false
   theme: material-original
   enableMaterialDesignIcons: true
   layout: auto
