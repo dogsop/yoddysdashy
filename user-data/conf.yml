@@ -80,6 +80,10 @@ sections:
   - name: Media
     icon: mdi-television-classic
     items:
+      - title: Plex
+        url: https://app.plex.tv/desktop/#!/
+        icon: hl-plex
+        id: 0_480_plex
       - title: Amazon Music
         icon: amazonmusic.png
         url: https://music.amazon.com/
